@@ -1,0 +1,117 @@
+/**
+Added fonts are:
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Special Elite', cursive;
+    font-family: 'Zilla Slab', serif;
+
+colors:
+    #F0F5F9
+    #C9D6DF
+    #52616B
+    #1E2022
+**/
+#inviting{
+    background-color: #1E2022;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.head{
+    font-family: 'Inconsolata', monospace;
+    color:#F0F5F9;
+    text-align: center;
+}
+ 
+#about{
+    background-color: #52616B;
+    color: #C9D6DF;
+    font-size: 30px;
+    font-family: 'Zilla Slab', serif;
+    padding: 50px;
+}
+ 
+#head_img{
+    margin: 20px;
+    min-width: 300px;
+}
+img{
+    border-radius: 10px;
+}
+ 
+.left{
+    margin-right: 50px;
+    margin-bottom: 50px;
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+ 
+@media (min-width: 1100px){
+    .left{
+        float: left;  
+    }   
+}
+@media (min-width: 1500px){
+    #about{
+        height: 700px;
+    }
+}
+ 
+.important-part{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F0F5F9;
+}
+ 
+.important-part2{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    color: #F0F5F9;
+}
+ 
+#me{
+    background-color: #1E2022;
+    height: 730px;
+    padding: 50px 0px;
+}
+ 
+.me{
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    grid-template-rows: 150px 150px 150px 150px;
+    gap: 10px;
+    color:#C9D6DF;
+}
+ 
+.me > div{
+    background-color:#F6F1F1;
+    color: #1E2022;
+    display: flex;
+    font-size: 70px;
+    font-family: 'Special Elite', cursive;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+}
+ 
+#me_hobby{
+    grid-row: span 4;
+    font-weight: bold;
+    border-radius: 50px;
+}
+ 
+#contacts{
+    background-color: #C9D6DF;
+    font-family: 'Chakra Petch', sans-serif;
+}
+ 
+.icon-square {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
